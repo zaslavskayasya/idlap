@@ -1,7 +1,7 @@
 // *** HEADER STYLES ***//
 
 .header {
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     color: #fff;
@@ -217,12 +217,16 @@
 }
 
 @media (max-width: 950px) {
+    .header{
+        position: fixed;
+    }
+
     .nav-line-bottom .nav-item {
         margin-left: 0;
     }
 
     .wrap-header {
-        padding: 36px;
+        padding: 18px 36px;
     }
 
     .menu {
@@ -291,7 +295,7 @@
     }
 
     .logo_head {
-        top: 29px;
+        top: 9px;
         left: 4px;
         width: 28px;
     }
@@ -302,7 +306,7 @@
 
     .menu-burger__header {
         display: block;
-        top: 31px;
+        top: 14px;
         right: -3px;
     }
 
@@ -327,4 +331,20 @@
         }
     }
 
+}
+
+@media (max-height: 650px)  {
+
+    .nav-line-bottom{
+        padding-top: 5px;;
+    }
+    .nav-item{
+        margin-bottom: 10px;
+    }
+    .nav-item:last-child{
+        margin-bottom: 20px;
+    }
+    .nav-line-top .nav-item{
+        margin-bottom: 7px;
+    }
 }

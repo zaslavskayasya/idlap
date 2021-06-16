@@ -94,11 +94,11 @@
     }
     .data {
         margin-top: -20px;
-        font-size: 10px;
+        font-size: 9px;
         width: 31px;
         margin: -20px auto;
         position: absolute;
-        left: -2px;
+        left: -4px;
         top: 0;
     }
 }
@@ -407,6 +407,7 @@
 @media (max-width: 760px) {
     .main-section {
         padding-top: 75px;
+        overflow-x: hidden;
     }
 
     .wrap-main_text {
