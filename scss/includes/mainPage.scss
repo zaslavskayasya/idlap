@@ -382,12 +382,15 @@
         max-width: 120px;
     }
     .partners{
-        border: 0.5px solid #9c9c9c
+        border-top: 0.5px solid #9c9c9c;
+        border-left: 0.5px solid #9c9c9c
+        
 
     }
     .partners .partners-item {
         width: 49.5%;
-        border: 0.5px solid #9c9c9c
+        border-bottom: 0.5px solid #9c9c9c;
+        border-right: 0.5px solid #9c9c9c
     }
     .btn-line{
         border: none;
@@ -443,6 +446,10 @@
     }
     .text-50 .right-part {
         width: 100%;
+    }
+    .proven {
+        padding-top: 60px;
+        padding-bottom: 0px;
     }
 
 }
