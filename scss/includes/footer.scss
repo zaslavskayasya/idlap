@@ -68,9 +68,7 @@
     .text-column{
         width: 100%;
     }
-    .menu{
 
-    }
 }
 .footer-nav{
     display: flex;
@@ -98,6 +96,15 @@
 
     }
 }
+
+.light-footer{
+    .normal_text, .footer-nav-link{
+
+        color: $darkColor;
+    }
+}
+
+
 
 @media (max-width: 760px){
     .footer-columns{
