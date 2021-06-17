@@ -217,9 +217,9 @@
 }
 
 @media (max-width: 950px) {
-    .header{
-        position: fixed;
-    }
+    // .header{
+    //     position: fixed;
+    // }
 
     .nav-line-bottom .nav-item {
         margin-left: 0;
@@ -334,7 +334,6 @@
 }
 
 @media (max-height: 650px)  {
-
     .nav-line-bottom{
         padding-top: 5px;;
     }
