@@ -28,6 +28,9 @@
     .h2-line-15{
         margin-bottom: 35px;
     }
+    .heading_3{
+        padding-left: 0px;;
+    }
 }
 
 .simple-contacts {
@@ -55,10 +58,10 @@
             transition: all ease-inb-out 0.3s;
         }
     }
-    .simple-contacts-name{
 
-    }
 }
+
+
 
 @media (max-width: 950px){
     .imprint{
@@ -72,4 +75,12 @@
         }
     }
     
+}
+
+@media (max-width: 760px){
+    .contcts-section{
+        .simple-contacts.h2-line-15{
+            padding: 0px;
+        }
+    }
 }
