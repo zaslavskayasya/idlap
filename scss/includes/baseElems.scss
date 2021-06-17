@@ -1,7 +1,6 @@
 // BASE 
 html {
     font-size: 14px;
-    min-height: 100vh;
     overflow-x: hidden;
 }
 
@@ -10,7 +9,6 @@ body {
     font-size: 2em;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     justify-content: space-between;
     overflow-x: hidden;
 }
