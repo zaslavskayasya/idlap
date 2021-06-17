@@ -49,6 +49,10 @@
             text-shadow: 0px 1px $darkColor;
         }
     }
+    .nav-line-top, .nav-line-bottom{
+        border-bottom-color: #E3E3E3;
+    }
+
 }
 
 .nav-item {
