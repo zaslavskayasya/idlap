@@ -52,6 +52,12 @@
     .nav-line-top, .nav-line-bottom{
         border-bottom-color: #E3E3E3;
     }
+    .menu-burger__header:after, 
+    .menu-burger__header:before, 
+    .menu-burger__header span{
+        background: $darkColor;
+
+    }
 
 }
 
@@ -325,6 +331,16 @@
     }
 
     .open-menu.dark-header {
+        .logo_head {
+            z-index: 999;
+
+            svg .logo-fill {
+                fill: $darkColor;
+                z-index: 999;
+            }
+        }
+    }
+    .open-menu.light-header {
         .logo_head {
             z-index: 999;
 
