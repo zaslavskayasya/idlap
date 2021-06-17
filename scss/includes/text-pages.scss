@@ -1,5 +1,6 @@
 .imprint{
     padding-top: 150px;
+    padding-bottom: 100px;
 }
 
 .simple_text {
@@ -51,7 +52,7 @@
         color: $darkColor;
         &:hover{
             color: $accentColor;
-            transition: all ease-inb-out 0.3s
+            transition: all ease-inb-out 0.3s;
         }
     }
     .simple-contacts-name{
@@ -62,6 +63,7 @@
 @media (max-width: 950px){
     .imprint{
         padding-top: 70px;
+        padding-bottom: 40px;
     }
     .simple-contacts {
         flex-direction: column;
