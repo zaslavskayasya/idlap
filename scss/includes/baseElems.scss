@@ -111,6 +111,8 @@ a{
 .left-50{
     max-width: 50%;
 }
+
+
 .left-60{
     max-width: 60%;
 }
@@ -190,7 +192,13 @@ a{
     line-height: 130.02%;
     text-transform: uppercase;
 }
-
+.normal_text_2 {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
 .normal_text {
     font-family: inherit;
     font-style: normal;
