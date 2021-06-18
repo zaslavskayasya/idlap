@@ -118,7 +118,26 @@
     }
 }
 
-
+.table-part {
+    background: #F9F9F9;
+}
+.tab-row{
+    border-bottom: 0.8px solid #ADADAD;
+    display: flex;
+    .tb-item{
+        width: 40%;
+        padding: 0px 10px;
+        display: flex;;
+        margin-right: 10px;
+        .small_text{
+            margin-right: 10px;
+            width: 150px;
+        }
+        .tbl-name{
+            width: 70px;
+        }
+    }
+}
 
 @media (max-width: 1200px){
     .invest-illustration{

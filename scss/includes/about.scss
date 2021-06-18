@@ -307,6 +307,7 @@
         justify-content: flex-start;
         align-items: center;
         padding-bottom: 6px;
+        margin-bottom: 19px;
         .only-mobile{
             width: 100%;
         }
@@ -318,6 +319,9 @@
     .author-photo{
         width: 133px;
         height: 133px;
+    }
+    .authors-section{
+        padding-bottom: 40px;
     }
     .authors-section .h2-line-30 {
         padding-bottom: 59px;
@@ -334,6 +338,9 @@
     }
     .author-info {
         padding-top: 4px;
+    }
+    .operating-section{
+
     }
     .operating-info .item{
         margin: 0px;
@@ -352,6 +359,10 @@
     }
     .about-contact-section .cont-text{
         padding-top: 0px;;
+    }
+    .about-contact-section {
+        padding-bottom: 91px;
+        padding-top: 100px;
     }
     
 }

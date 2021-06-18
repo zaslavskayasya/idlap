@@ -110,6 +110,16 @@
     .footer-columns{
         flex-direction: column;
     }
+    .footer {
+        padding: 17px 0px;
+    }
+    .footer-top {
+        margin-bottom: -11px;
+    }
+    .footer .footer-nav-link, .footer .normal_text{
+        font-size: 13px;
+        line-height: 18px;
+    }
 }
 
 @media (max-width: 450px){
@@ -117,7 +127,7 @@
         flex-direction: column;
     }
     .nav-group{
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
     .footer-nav-link{
         margin-bottom: 10px;;

@@ -98,7 +98,6 @@ a{
             width: 100%;
         }
     }
-
 }
 
 
@@ -200,6 +199,15 @@ a{
     line-height: 20px;
     color: $lightColor;
     margin-bottom: 25px;
+}
+
+.small_text{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 140%;
+    color: $darkColor;
 }
 
 .gray-section{
