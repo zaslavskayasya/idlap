@@ -260,6 +260,9 @@
 	text-decoration: none;
     border-top: 0.5px solid #D5D5D5;
     border-bottom: 0.5px solid #D5D5D5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .b-faq .faq__title .faq__spoiler {
@@ -541,6 +544,14 @@ svg .opacity1{
             width: 85%;
         }
 
+    }
+    // section.section, .future-section{
+    //     padding-top:25px;
+    //     padding-bottom: 25px;
+
+    // }
+    .b-faq .faq__title{
+        padding-left: 0px;
     }
     
 
