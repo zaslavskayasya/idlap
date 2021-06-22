@@ -12,7 +12,7 @@
     @include d-flex-base;
     align-items: flex-end;
     padding-bottom: 24px;
-    border-bottom: 0.5px solid #383838;
+    // border-bottom: 0.5px solid #383838;
 }
 
 .main-banner-text {
@@ -121,16 +121,14 @@
     border-bottom: 0.5px solid #ADADAD; 
     border-right: 0.5px solid #ADADAD;
     border-left: 0.5px solid #ADADAD;  
-    background-color: #F9F9F9;
-  
+    background-color: #F9F9F9;  
     td {
         width: 10%
     }
     td.first{
         max-width: 50px;
         padding: 5px
-    }
-    
+    }    
 }
 
 #chart-proven tbody td {
@@ -184,7 +182,7 @@
     }
 }
 .lines-block{
-    border-top: 0.5px solid #D5D5D5;
+    border-top: 1px solid #adadad;
     width: 620px;
     .line {
         width: 100%;
@@ -237,25 +235,24 @@
     .advantages-item{
         border-bottom: 1px solid #383838;
         border-left: 1px solid #383838;
-        padding: 50px 34px;
+        padding: 50px 25px;
         text-align: center;
         width: 33%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    
+        justify-content: start;
+        align-items: center;    
         .number{
-
-            font-weight: 100;
+            font-weight: 500;
             font-size: 40px;
             line-height: 140%;
             text-transform: uppercase;
             color: $accentColor;
             margin: auto;
+            height: 60px;;
         }
         .advant-text{
-            font-weight: 100;
+            font-weight: 500;
             font-size: 14px;
             line-height: 140%;
             color: $lightColor;
@@ -302,11 +299,11 @@
     text-align: center;
 }
 .btn-line{
-    border-bottom: 1px solid #383838;
+    border-bottom: 1px solid #ADADAD;;
 
 }
 .right-line {
-    border-right: 1px solid #383838;
+    border-right: 1px solid #ADADAD;;
 
 }
 
@@ -382,15 +379,15 @@
         max-width: 120px;
     }
     .partners{
-        border-top: 0.5px solid #9c9c9c;
-        border-left: 0.5px solid #9c9c9c
+        border-top: 0.5px solid #ADADAD;
+        border-left: 0.5px solid #ADADAD
         
 
     }
     .partners .partners-item {
         width: 49.5%;
-        border-bottom: 0.5px solid #9c9c9c;
-        border-right: 0.5px solid #9c9c9c
+        border-bottom: 0.5px solid #ADADAD;
+        border-right: 0.5px solid #ADADAD
     }
     .btn-line{
         border: none;
@@ -407,6 +404,9 @@
     // .main-section{
     //     overflow-x: hidden;
     // }
+    .advantages .advantages-item .advant-text{
+        height: 60px;
+    }
 
 }
 
@@ -461,6 +461,31 @@
         padding-top: 60px;
         padding-bottom: 0px;
     }
+    .line-on-mobile{
+        border-top: 1px solid #383838;
+        border-bottom: 1px solid #383838;
+        padding: 15px 0px; 
+
+    }
+    .illustration {
+        left: -71%;
+    }
+    .poven .text-50 .right-part{
+        margin-bottom: 0px;
+    }
+
+    .how-it-section .top-border{
+        border: none;
+    }
+    .advantages .advantages-item .advant-text{
+        width: 160px;
+    }
+    .advantages .advantages-item {
+        padding: 30px 15px 30px;
+    }
+    .advantages .advantages-item .advant-text{
+        height: 50px;;
+    }
 
 }
 
@@ -469,5 +494,23 @@
         height: 157px;
         -webkit-transform: scale(0.7) translateX(-20%);
         transform: scale(0.5) translateX(-50%) translateY(-43%);
+    }
+    .illustration {
+        left: -100%;
+    }
+
+}
+
+
+@media (max-width: 370px){
+    .proven-illustration{
+        transform: scale(0.4) translateX(-73%) translateY(-43%);
+    }
+}
+
+@media (max-width: 355px){
+    .h1 {
+        font-size: 36px;
+        padding-bottom: 8px;
     }
 }

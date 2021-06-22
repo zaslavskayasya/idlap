@@ -34,6 +34,7 @@ ul {
 }
 .gray-section{
     background-color: #F8F8F8;
+
 }
 .white-section{
     background: #fdfcfc;
@@ -167,7 +168,7 @@ a{
 .heading_2{
     font-family: inherit;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 22px;
     line-height: 130%;
 }
@@ -175,7 +176,7 @@ a{
 .heading_3 {
     font-family: inherit;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 140%;
     text-transform: uppercase;
@@ -195,24 +196,29 @@ a{
 .normal_text_2 {
     font-family: inherit;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
 }
 .normal_text {
     font-family: inherit;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: $lightColor;
     margin-bottom: 25px;
 }
 
+.normal_text.bold{
+    font-weight: 600;
+    font-size: 16px;
+}
+
 .small_text{
     font-family: inherit;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 11px;
     line-height: 140%;
     color: $darkColor;
@@ -249,7 +255,7 @@ a{
     color: $lightColor;
     padding: 16px 32px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     text-transform: uppercase;
