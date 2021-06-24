@@ -186,6 +186,9 @@
     }
     .roadto-section{
         padding-top: 55px;
+        // .graph-block{
+        //     display: none;
+        // }
     }
     .roadto-section .h2-line-15 {
         margin-bottom: 23px;
@@ -204,6 +207,9 @@
             padding-left: 0px;
             padding-right: 0px;
         }
+    }
+    .key-benefit-section{
+        padding-top: 0px;
     }
     .earlier-liqui{
         padding-bottom: 0px;;
@@ -244,5 +250,21 @@
         background: #F8F8F8;
         padding: 33px 5px;
     }
-
+    .sender-block{
+        flex-direction: column;
+        align-items: flex-start;
+        .acc{
+            margin-bottom: 36px;
+        }
+    }
+    .sender-block .wrp-a{
+        width: 100%;
+    }
+    .sender-block .wrp-a a{
+        box-sizing: border-box;
+        width: 100%;;
+    }
+    .adviser-block {
+        padding: 100px 0px;
+    }
 }
