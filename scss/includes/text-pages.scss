@@ -68,13 +68,8 @@
     font-weight: 500;
     font-size: 100px;
     line-height: 100%;
-    margin-top: 0px;;
-    /* identical to box height, or 100px */
-
+    margin-top: 0px;
     text-transform: uppercase;
-
-    /* black */
-
     color: #151515;
 }
 .heading_3-texts{
@@ -86,6 +81,55 @@
     color: #151515;
 }
 
+// white papers //
+.white-papers{
+    padding: 100px 0px 150px;
+    .btn {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+        height: 67px;
+        display: flex;
+        justify-content: center;
+        align-items: center;;
+    }
+}
+.text-section .h2-line-15 {
+    margin-bottom: 66px;
+}
+.wpt_text {
+    margin-bottom: 20px;
+}
+
+.white-papers-block {
+    display: flex;
+    justify-content: space-between;
+    .papers-item{
+        width: 30%;
+    }
+    .arrow-btn{
+        transform: rotate(90deg)
+    }
+}
+.papers_header{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 130%;
+    color: #151515;
+    border-top: 3px solid #E3E3E3;
+    border-bottom: 3px solid #E3E3E3;
+    padding: 10px 0px;
+}
+.wpt_text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #151515;
+}
 
 @media (max-width: 950px){
     .imprint{
