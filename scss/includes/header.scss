@@ -95,6 +95,9 @@
     }
 }
 
+.nav-item .nav-link.link-active.active{
+    color: $accentColor;
+}
 .wrap-header {
     display: flex;
     justify-content: space-between;

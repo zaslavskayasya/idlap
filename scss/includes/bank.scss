@@ -35,7 +35,12 @@
 .map-illustration{
     width: 620px;
     height: 402.05px;
-    background: url('../img/map.jpg');
+    position: relative;
+    img{
+        width: 100%;
+        position: absolute;
+    }
+    // background: url('../img/map.jpg');
 }
 .access-section{
     .heading_2{
@@ -45,6 +50,8 @@
 }
 .texts-on-map{
     padding: 24px 41px;
+    position: absolute;
+    z-index: 99;
     .normal_text{
         margin-bottom: 14px;;
     }

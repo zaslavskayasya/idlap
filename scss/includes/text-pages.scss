@@ -105,7 +105,7 @@
 }
 .white-papers-block {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-flow: wrap;
     .papers-item{
         width: 30%;
@@ -126,7 +126,8 @@
     line-height: 130%;
     color: #151515;
     border-top: 3px solid #E3E3E3;
-    border-bottom: 3px solid #E3E3E3;
+    border-bottom: 1px solid #ADADAD;
+    // border-bottom: 3px solid #E3E3E3;
     padding: 10px 0px;
 }
 .wpt_text{
@@ -139,13 +140,19 @@
 }
 
 span.bold{
-    font-weight: 800;
+    font-weight: 600;
 }
 .normal_text.w-60{
     max-width: 60%;
 
 }
-
+ul.priv-ul{
+    list-style-type: square;
+    list-style-position: inside;
+    li {
+        margin-bottom: 0px;;
+    }
+}
 .priv_heading{
     font-family: Inter;
     font-style: normal;
@@ -173,6 +180,8 @@ a.no-upper{
     text-transform: none;
     font-size: 16px;;
 }
+
+
 @media (max-width: 950px){
     .imprint{
         padding-top: 70px;

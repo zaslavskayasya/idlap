@@ -135,6 +135,13 @@
     }    
 }
 
+.subline-table td{
+    text-align: center;;
+}
+.subline-table td.first {
+    text-align: left;
+}
+
 #chart-proven tbody td {
     transform-origin: bottom;
     animation: revealing-bars 10s linear infinite;
