@@ -53,6 +53,8 @@
 
 .charts-css.column:not(.reverse) tbody tr th{
     font-size: 14px;
+    font-size: 11px;
+    line-height: 100%;
 }
 
 .pieces-item{
@@ -110,10 +112,12 @@
 }
 .charts-css.column:not(.reverse) tbody tr th{
     font-size: 13px;
-    font-weight: 100;
+    font-weight: 400;
     margin-top: 15px;
     padding-top: 11px;
     height: 10px;
+    color: #151515;
+
 }
 .subline-table{
     width: 100%;
