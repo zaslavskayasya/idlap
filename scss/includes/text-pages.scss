@@ -104,8 +104,10 @@
 .white-papers-block {
     display: flex;
     justify-content: space-between;
+    flex-flow: wrap;
     .papers-item{
         width: 30%;
+        margin-bottom: 15px;
     }
     .arrow-btn{
         transform: rotate(90deg)
@@ -131,6 +133,38 @@
     color: #151515;
 }
 
+span.bold{
+    font-weight: 800;
+}
+.normal_text.w-60{
+    max-width: 60%;
+
+}
+
+.priv_heading{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #151515;
+    text-transform: uppercase;
+}
+.risk-row {
+    border-bottom: 1px solid #D5D5D5;
+}
+.risk-row:last-child {
+    border-bottom: none;
+}
+.normal_text.w-500 {
+    font-weight: 500;;
+}
+@media (max-width: 1200px){
+    .section.text-section{
+        padding-top:70px;
+    }
+}
+
 @media (max-width: 950px){
     .imprint{
         padding-top: 70px;
@@ -142,7 +176,23 @@
             margin-bottom: 30px;
         }
     }
+
+    .white-papers-block .papers-item {
+        width: 45%;
+    }
+    .normal_text.w-60{
+        max-width: 100%;
     
+    }
+    .policy-page{
+        padding-top: 75px;
+    }
+    .policy-page.text-section .h2-line-15 {
+        margin-bottom: 26px;
+    }
+    .section.text-section{
+        padding-top:70px;
+    }
 }
 
 @media (max-width: 760px){
@@ -154,5 +204,11 @@
     .h1-texts{
         font-size: 45px;
         
+    }
+    .white-papers-block .papers-item {
+        width: 100%;
+    }
+    .white-papers.text-section .h2-line-15 {
+        margin-bottom: 19px;
     }
 }
