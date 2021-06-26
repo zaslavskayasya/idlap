@@ -1,6 +1,49 @@
+.cookieconsent{
+    position:fixed;
+    font-family: inherit;
+    // max-width: 70%;
+    padding: 50px 0px;
+    font-size: 25px;
+    left:0;
+    bottom:0;
+    background-color:#000;
+    color:#fff;
+    text-align:center;
+    width:100%;
+    z-index:99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ADADAD;
+    transition: all ease-in-out 0.3s;
+}
+
+.cookieconsent p{
+    text-align: left;
+    max-width: 70%;
+    padding-right: 30px;
+}
+
+.ccetp-cookies-link{
+    color: #fff;
+}
+
+@media(max-width: 760px){
+    .cookieconsent{         
+        padding: 25px 0px;
+        font-size: 20px;
+        flex-direction: column;
+    }
+    .cookieconsent p{
+        padding-right: 0px;
+    }
+}
+
 @import './includes/mixins.scss';
 
 @import './includes/variables.scss';
+
+
 
 @import './includes/baseElems.scss';
 

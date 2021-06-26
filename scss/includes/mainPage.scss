@@ -479,7 +479,7 @@
 
     }
     .illustration {
-        left: -71%;
+        left: -51%;
     }
     .poven .text-50 .right-part{
         margin-bottom: 0px;
@@ -507,7 +507,7 @@
         transform: scale(0.5) translateX(-50%) translateY(-43%);
     }
     .illustration {
-        left: -100%;
+        left: -90%;
     }
 
 }
@@ -516,6 +516,9 @@
 @media (max-width: 370px){
     .proven-illustration{
         transform: scale(0.4) translateX(-73%) translateY(-43%);
+    }
+    .illustration {
+        left: -100%;
     }
 }
 
